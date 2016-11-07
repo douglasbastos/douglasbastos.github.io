@@ -178,4 +178,7 @@ a{
     .user-image{
         display: none;
     }
+    .content-header{
+        padding: 10vh 0;
+    }
 }
