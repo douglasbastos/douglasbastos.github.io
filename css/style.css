@@ -6,11 +6,12 @@ body {
     font-size: 1.6rem;
     font-family: 'Raleway', sans-serif;
 }
+}
 h1 {
     font-size: 3.5rem;
 }
+}
 p {
-    font-size: 2rem;
     font-weight: 300;
 }
 section {
@@ -22,6 +23,10 @@ section {
     height: 60vh;
     border-bottom: 2px solid #000;
 }
+.header-subtitle{
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+}
 .menu {
     background: #f0f0f0;
     height: 40vh;
@@ -29,7 +34,35 @@ section {
 }
 .about {
     background: #ffffff;
-    height: 100vh;
+    padding: 5vh 0;
+}
+.about .about-description{
+    border-right: 0.1rem solid #000;
+    float: left;
+    width: 45%;
+    font-size: 1.4rem;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+.about .about-skill{
+    float: right;
+    width: 45%;
+    text-align: left;
+    margin-left: 2%;
+}
+.about-skill-title{
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom: 3%;
+    margin-right: 5%;
+    font-weight: 600;
+}
+.about-skill-list{
+    font-size: 1.2rem;
+}
+.content-about h1{
+    padding-bottom: 2vh;
 }
 .talks {
     background: #000000;
@@ -95,8 +128,19 @@ a{
         font-size: 2rem;
     }
     p {
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: 300;
+    }
+    .header-subtitle{
+        font-size: 1rem;
+    }
+    .about .about-description{
+        width: 90%;
+        padding: 0 5% 5%;
+    }
+    .about .about-skill{
+        width: 90%;
+        margin-left: 10%;
     }
 }
 @media (max-height: 500px){
