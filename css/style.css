@@ -6,7 +6,6 @@ body {
     font-size: 1.6rem;
     font-family: 'Raleway', sans-serif;
 }
-}
 h1 {
     font-size: 3.5rem;
 }
@@ -34,6 +33,7 @@ section {
 }
 .about {
     background: #ffffff;
+    height: 100vh;
     padding: 5vh 0;
 }
 .about .about-description{
@@ -66,12 +66,27 @@ section {
 }
 .talks {
     background: #000000;
-    height: 100vh;
-    color:  #ffffff;
+    color:  #FFFFFF;
+    padding: 3% 0;
+}
+.content-talks h1{
+    padding-bottom: 2%;
+}
+.talks .talks-list a{
+    color: #FFFFFF;
+}
+.talks .talks-list-title{
+    font-weight: 600;
+}
+.talks .talks-list-description{
+    font-size:  1.2rem;
+}
+.talks .talks-list-links{
+    font-size: 1.4rem;
 }
 .social {
     background: #ffffff;
-    height: 30vh;
+    padding: 3% 0;
 }
 .content-header {
     color: #FFFFFF;
@@ -141,6 +156,22 @@ a{
     .about .about-skill{
         width: 90%;
         margin-left: 10%;
+    }
+    .talks {
+        padding: 8% 0;
+    }
+    .talks .talks-list-title{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .talks .talks-list-description{
+        font-size:  1rem;
+    }
+    .talks .talks-list-links{
+        font-size: 1.2rem;
+    }
+    .social {
+        padding: 8% 0;
     }
 }
 @media (max-height: 500px){
