@@ -76,12 +76,14 @@ section {
 }
 .talks .talks-list-title{
     font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 .talks .talks-list-description{
     font-size:  1.2rem;
 }
 .talks .talks-list-links{
     font-size: 1.4rem;
+    margin-bottom: 0.5rem;
 }
 .social {
     background: #ffffff;
@@ -136,6 +138,9 @@ a{
     height: 3rem;
     width: 3rem;
     display: inline-block;
+}
+.soon{
+    font-size: 0.8rem;
 }
 @media (max-width: 800px) {
     h1 {
