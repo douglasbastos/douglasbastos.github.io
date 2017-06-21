@@ -19,7 +19,7 @@ section {
 }
 .header {
     background: #0f0162;
-    height: 60vh;
+    height: 70vh;
     border-bottom: 2px solid #000;
 }
 .header-subtitle{
@@ -28,7 +28,7 @@ section {
 }
 .menu {
     background: #f0f0f0;
-    height: 40vh;
+    height: 30vh;
     color: #000000;
 }
 .about {
@@ -97,7 +97,7 @@ section {
     text-align: center;
 }
 .content-menu {
-    padding-top: 15vh;
+    padding-top: 7vh;
     text-align: center;
     font-size: 1.6rem;
 }
@@ -125,10 +125,10 @@ a{
 .user-image > img {
     border: 3px solid #fff;
     height: auto;
-    width: 8rem;
+    width: 10rem;
 }
-.img-circle {
-    border-radius: 50%;
+.img-profile {
+    border-radius: 13%;
 }
 .links-social-header .btn-social-icon{
     color: #fff;
@@ -166,7 +166,6 @@ a{
     }
     .talks .talks-list-title{
         font-size: 1.4rem;
-        font-weight: 600;
     }
     .talks .talks-list-description{
         font-size:  1rem;
@@ -178,11 +177,11 @@ a{
         padding: 8% 0;
     }
 }
-@media (max-height: 500px){
+@media (max-height: 510px){
     .user-image{
         display: none;
     }
     .content-header{
-        padding: 10vh 0;
+        padding: 15vh 0;
     }
 }
