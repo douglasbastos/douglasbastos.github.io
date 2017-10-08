@@ -9,7 +9,7 @@ body {
 h1 {
     font-size: 3.5rem;
 }
-}
+
 p {
     font-weight: 300;
 }
@@ -17,8 +17,22 @@ section {
     display: table;
     width: 100%;
 }
+a{
+    text-decoration: none;
+}
+button {
+    background-color: #19D6DA;
+    border: none;
+    color: white;
+    padding: 8px 22px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 .header {
-    background: #0f0162;
+    background: #19D6DA;
     height: 70vh;
     border-bottom: 2px solid #000;
 }
@@ -141,6 +155,15 @@ a{
 }
 .soon{
     font-size: 0.8rem;
+}
+.talks-event-local {
+    font-size: 1.2rem;
+}
+.talks-event-date {
+    font-size: 0.9rem;
+}
+.talks .talks-list-links{
+    margin-top: 0.7rem;
 }
 @media (max-width: 800px) {
     h1 {
